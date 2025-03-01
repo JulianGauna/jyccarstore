@@ -186,18 +186,20 @@ footer {
 /* Contenedor de las imágenes del slider */
 .producto-slider {
     position: absolute;
-    top: 0;
+    top: 50%;  /* Centra las imágenes verticalmente */
     left: 0;
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    align-items: center;  /* Asegura que las imágenes se alineen al centro */
     animation: deslizar 20s linear infinite;
-    z-index: -1; /* Para que las imágenes estén detrás del texto */
+    z-index: -1; /* Asegura que las imágenes estén detrás del encabezado */
 }
 
+/* Ajustes a las imágenes del slider */
 .producto-slider img {
     width: 200px;  /* Ajusta el tamaño de las imágenes */
-    height: auto;
+    height: 120px; /* Ajusta la altura de las imágenes */
     margin-right: 20px;  /* Espaciado entre las imágenes */
     object-fit: cover;
     border-radius: 10px;
@@ -212,3 +214,4 @@ footer {
         transform: translateX(-100%); /* Desliza las imágenes fuera de la pantalla, a la izquierda */
     }
 }
+
