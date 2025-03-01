@@ -182,3 +182,33 @@ footer {
     letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Contenedor de las imágenes del slider */
+.producto-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    animation: deslizar 20s linear infinite;
+    z-index: -1; /* Para que las imágenes estén detrás del texto */
+}
+
+.producto-slider img {
+    width: 200px;  /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    margin-right: 20px;  /* Espaciado entre las imágenes */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Animación para el desplazamiento infinito */
+@keyframes deslizar {
+    0% {
+        transform: translateX(100%); /* Comienza fuera de la pantalla, a la derecha */
+    }
+    100% {
+        transform: translateX(-100%); /* Desliza las imágenes fuera de la pantalla, a la izquierda */
+    }
+}
