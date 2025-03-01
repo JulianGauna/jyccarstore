@@ -12,7 +12,7 @@ body {
 /* Estilos del encabezado */
 header {
     position: relative;
-    background: url('auto.jpg') no-repeat center center/cover; /* Fondo de imagen de auto */
+    background: url('fondo-encabezado.png') no-repeat center center/cover; /* Fondo de imagen de auto */
     padding: 100px 20px;
     text-align: center;
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.8);
