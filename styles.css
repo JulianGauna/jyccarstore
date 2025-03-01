@@ -11,11 +11,13 @@ body {
 
 /* Estilos del encabezado */
 header {
-    background: linear-gradient(90deg, #000428, #004e92);
-    padding: 50px 20px;
+    position: relative;
+    background: url('auto.jpg') no-repeat center center/cover; /* Fondo de imagen de auto */
+    padding: 100px 20px;
     text-align: center;
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.8);
     border-bottom: 3px solid #00c3ff;
+    color: white;
 }
 
 header h1 {
