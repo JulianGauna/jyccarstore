@@ -81,7 +81,24 @@ nav ul li a:hover::after {
     background-color: #111;
 }
 
+#kits {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #111;
+}
+
 #productos h2 {
+    color: #00c3ff;
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif; /* Fuente serif para los títulos de productos */
+    font-style: italic;
+}
+
+#kits h2 {
     color: #00c3ff;
     font-size: 4em;
     text-transform: uppercase;
