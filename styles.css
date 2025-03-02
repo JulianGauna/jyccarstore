@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
     font-family: 'Montserrat', sans-serif; /* Fuente moderna y limpia */
-    background: linear-gradient(180deg, #007bff, #00c3ff);
+    background-color: #007bff;
     color: #ffffff;
     margin: 0;
     padding: 0;
@@ -78,13 +78,13 @@ nav ul li a:hover::after {
 #productos {
     text-align: center;
     padding: 100px 20px;
-    background: linear-gradient(180deg, #007bff, #00c3ff);
+    background-color: #007bff;
 }
 
 #kits {
     text-align: center;
     padding: 100px 20px;
-    background: linear-gradient(180deg, #007bff, #00c3ff);
+    background-color: #007bff;
 }
 
 #productos h2 {
