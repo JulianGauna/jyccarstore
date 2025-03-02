@@ -88,7 +88,7 @@ nav ul li a:hover::after {
 }
 
 #productos h2 {
-    color: #00c3ff;
+    color: #111;
     font-size: 4em;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -99,7 +99,7 @@ nav ul li a:hover::after {
 }
 
 #kits h2 {
-    color: #00c3ff;
+    color: #111;
     font-size: 4em;
     text-transform: uppercase;
     letter-spacing: 4px;
