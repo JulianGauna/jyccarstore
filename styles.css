@@ -78,13 +78,13 @@ nav ul li a:hover::after {
 #productos {
     text-align: center;
     padding: 100px 20px;
-    background-color: linear-gradient(180deg, #007bff, #00c3ff);
+    background: linear-gradient(180deg, #007bff, #00c3ff);
 }
 
 #kits {
     text-align: center;
     padding: 100px 20px;
-    background-color: linear-gradient(180deg, #007bff, #00c3ff);
+    background: linear-gradient(180deg, #007bff, #00c3ff);
 }
 
 #productos h2 {
