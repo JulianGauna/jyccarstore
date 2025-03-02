@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
     font-family: 'Montserrat', sans-serif; /* Fuente moderna y limpia */
-    background-color: linear-gradient(180deg, #007bff, #00c3ff);
+    background: linear-gradient(180deg, #007bff, #00c3ff);
     color: #ffffff;
     margin: 0;
     padding: 0;
